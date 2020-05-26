@@ -13,6 +13,7 @@ power_consumption_data$Sub_metering_3 <- as.numeric(power_consumption_data$Sub_m
 
 #subsetting the data to specific days
 
+
 subset_data <- subset(power_consumption_data, Date=="2007-02-01" | Date =="2007-02-02")
 
 png("plot1.png", width = 480, height = 480)
